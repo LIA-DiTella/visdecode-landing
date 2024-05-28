@@ -1,8 +1,151 @@
 <!DOCTYPE html>
 <html>
-  
-  <head>
-    <meta charset="utf-8">
-    <title>VisDecode: AI-Driven Interpretation and Enhancement of Scientific Plots</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="VisDecode: AI-Driven Interpretation and Enhancement of Scientific Plots">
+  <meta name="keywords" content="VisDecode, AI, Scientific Plots, Data Visualization">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VisDecode: AI-Driven Interpretation and Enhancement of Scientific Plots</title>
+  <link rel="icon" href="./assets/favicon.ico">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!--script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script-->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <script src="https://kit.fontawesome.com/b814c174cf.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="module" crossorigin src="./assets/index.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index.css">
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">VisDecode: AI-Driven Interpretation and Enhancement of Scientific Plots</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://github.com/author1">Author One</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://github.com/author2">Author Two</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://author3.com/">Author Three</a><sup>1,2</sup>,
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>University A</span>
+            <span class="author-block"><sup>2</sup>Institute B</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/xxxx.xxxxx.pdf"
+                   target="_blank"
+                   class="external-link button is-normal is-rounded is-dark"> 
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/xxxx.xxxxx"
+                   target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/VisDecode"
+                   target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="subtitle has-text-centered">
+        VisDecode is a project to create an AI tool capable of automatically interpreting and providing feedback on scientific plots. Utilizing state-of-the-art visual language understanding techniques, VisDecode analyzes raster images of plots such as bar charts, line charts, and scatter plots. It extracts key visual attributes like color, shape, positioning, and plot data, all of which significantly impact data perception and understanding. Based on these analyses and well-established best practices from data visualization literature, VisDecode offers actionable suggestions for improving the design of these plots. This feedback helps ensure that scientific visualizations are both clear and effective in communicating data. A significant advantage of VisDecode is its framework-free nature, allowing scientists to continue using their preferred visualization tools while still benefiting from AI-driven design enhancements. By incorporating these expert recommendations, VisDecode empowers researchers to create better data visualizations.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      @misc{author2024visdecode,
+        title={VisDecode: AI-Driven Interpretation and Enhancement of Scientific Plots}, 
+        author={Author One and Author Two and Author Three},
+        year={2024},
+        eprint={xxxx.xxxxx},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV}
+      }
+    </code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link" href="https://github.com/author1" class="external-link">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            Source code mainly borrowed from <a href="https://keunhong.com/">Keunhong Park</a>'s <a href="https://nerfies.github.io/">Nerfies website</a>.
+          </p>
+          <p>
+            Please contact <a href="https://github.com/author1">Author One</a> for feedback and questions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
+</body>
 </html>
