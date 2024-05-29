@@ -47,17 +47,20 @@
           <h1 class="title is-1 publication-title">VisDecode: AI-Driven Interpretation and Enhancement of Scientific Plots</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://github.com/martinsinnona">Martin Sinnona</a><sup>1</sup>,</span>
+              <a href="https://github.com/martinsinnona">Martín A. Sinnona</a><sup>1</sup>,</span>
             <span class="author-block">
               <a href="https://github.com/vsiless">Viviana Siless</a><sup>1</sup>,</span>
             <span class="author-block">
               <a href="https://emmanueliarussi.github.io/">Emmanuel Iarussi</a><sup>1,2</sup>,
+            <span class="author-block">
+              <a href="">Julián Eisenchlos</a><sup>3</sup>,
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>1 </sup>Universidad Torcuato DiTella</span>
-            <span class="author-block"><sup>2  </sup>CONICET</span>
+            <span class="author-block"><sup>2 </sup>CONICET</span>
+            <span class="author-block"><sup>3 </sup>Google DeepMind</span>
           </div>
 
           <div class="column has-text-centered">
@@ -77,7 +80,7 @@
 
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/LIA-DiTella/DiffUDF"
+                <a href="https://github.com/LIA-DiTella/visdecode"
                    target="_blank"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -100,7 +103,8 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">VisDecode</span> is a project to create an AI tool capable of automatically interpreting and providing feedback on scientific plots. Utilizing state-of-the-art visual language understanding techniques, VisDecode analyzes raster images of plots such as bar charts, line charts, and scatter plots. It extracts key visual attributes like color, shape, positioning, and plot data, all of which significantly impact data perception and understanding. Based on these analyses and well-established best practices from data visualization literature, VisDecode offers actionable suggestions for improving the design of these plots. This feedback helps ensure that scientific visualizations are both clear and effective in communicating data. A significant advantage of VisDecode is its framework-free nature, allowing scientists to continue using their preferred visualization tools while still benefiting from AI-driven design enhancements. By incorporating these expert recommendations, VisDecode empowers researchers to create better data visualizations.
+        <span class="dnerf">VisDecode</span> is a project to create an AI tool capable of automatically interpreting and providing feedback on scientific plots. Utilizing state-of-the-art visual language understanding techniques, VisDecode analyzes raster images of plots such as bar charts, line charts, and scatter plots. 
+        It extracts key visual attributes like color, shape, positioning, and plot data, all of which significantly impact data perception and understanding. Based on these analyses and well-established best practices from data visualization literature, VisDecode offers actionable suggestions for improving the design of these plots. 
       </h2>
     </div>
   </div>
@@ -109,30 +113,27 @@
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container is-max-desktop content">
-        <img src="./assets/teaser-1KX-P5JL.png"
+        <img src="./assets/good_design.png"
              class="interpolation-image"
-             alt="Interpolate start reference image."/>
+             alt="Good design practices."/>
       </div>
   </div>
 </section>
-
 
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <h2 class="title is-3">Progress</h2>
         <div class="content has-text-justified">
           <p>
-          In recent years, there has been a growing interest in training Neural Networks to approximate Unsigned Distance Fields (UDFs) for representing open surfaces in the context of 3D reconstruction.
-          However, UDFs are non-differentiable at the zero level set which leads to significant errors in distances and gradients, generally resulting in fragmented and discontinuous surfaces. 
-          In this paper, we propose to learn a hyperbolic scaling of the unsigned distance field, which defines a new Eikonal problem with distinct boundary conditions.
-          This allows our formulation to integrate seamlessly with state-of-the-art continuously differentiable implicit neural representation networks, largely applied in the literature to represent signed distance fields.
-          Our approach not only addresses the challenge of open surface representation but also demonstrates significant improvement in reconstruction quality and training performance. 
-          Moreover, the unlocked field's differentiability allows the accurate computation of essential topological properties such as normal directions and curvatures, pervasive in downstream tasks such as rendering.
-          Through extensive experiments, we validate our approach across various data sets and against competitive baselines.
-          The results demonstrate enhanced accuracy and up to an order of magnitude increase in speed compared to previous methods.
+            
+            Our focus is on creating a model capable of distilling design decisions from scientific plots. 
+            This involved developing a custom Vision Transformer (ViT) model trained on a dataset specifically created for this task, as well as utilizing well-known datasets such as <a href="https://github.com/NiteshMethani/PlotQA">PlotQA</a>, 
+            which is designed for reasoning over scientific plots. No existing ViT models in the state-of-the-art can directly retrieve the design decisions made in a chart (i.e., variable to visual attribute mapping), 
+            which is why we developed this custom solution. For handling the underlying data of plots, we integrated the <a href = "https://arxiv.org/abs/2212.09662">MatCha</a> model, which excels in chart data retrieval. 
+            This combination has enabled us to extract both design attributes and data effectively. Our first prototype has shown promising results, demonstrating the capability to accurately distill design decisions. 
           </p>
         </div>
       </div>
@@ -141,113 +142,15 @@
   </div>
 </section>
 
-<div id="meshes"> 
-  <canvas id="c"></canvas>
-  <div id="firstMesh" class="list-item">
-    <div id="firstScene" class="scene"></div>
-  </div>
-
-  <div id="secondMesh" class="list-item">
-    <div id="secondScene" class="scene"></div>
-  </div>
-
-  <div id="thirdMesh" class="list-item">
-    <div id="thirdScene" class="scene"></div>
-  </div>
-</div>
-
-
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-half">
-        <h2 class="title is-3">Baseline comparisons</h2>
-        <p>
-          We compare our method to state of the art neural representation approaches in three common open-surface datasets. Results show greater accuracy and improved training times.
-          <br><br>
-        </p>
-        <div class="container">
-          <div id="carousel">
-            <div><img src="./assets/comp1-OLb0rkec.png"/></div>
-            <div><img src="./assets/comp2-T8CwnHTZ.png"/></div>
-            <div><img src="./assets/comp3-O_SydRvz.png"/></div>
-            <div><img src="./assets/comp4-X2--LtZu.png"/></div>
-            <div><img src="./assets/comp5--OEK5SvC.png"/></div>
-            <div><img src="./assets/comp6--z1oVk79.png"/></div>
-          </div>
-        </div>
-
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop content">
+        <img src="./assets/examples.png"
+             class="interpolation-image"
+             alt="Good design practices."/>
       </div>
-      
-      <div class="column is-half">
-        <h2 class="title is-3">Topological properties</h2>
-        <div class="columns is-centered">
-          <div class="column content is-max-desktop">
-            <p>
-              The full differentiability of our method allows for mean and gaussian curvature computation.
-              <br><br>
-            </p>
-            <img src="./assets/curvatures-baLI18X5.png"/>
-            <div class="armadillo is-centered has-text-centered">
-              <img src="./assets/arm_mean-Ep2H8l-B.gif"/>
-              <p>Mean</p>
-            </div>
-            <div class="armadillo is-centered has-text-centered">
-              <img src="./assets/arm_gauss-3ND8wPkI.gif"/>
-              <p>Gaussian</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="columns is-centered">
-      <div class="column is-full-width is-max-desktop">
-        <h2 class="title is-3">Direct rendering and ilumination</h2>
-          <div class="content has-text-justified">
-            <p>
-              Precise normal field and principal curvatures computation allows for realistic direct rendering techniques.
-            </p>
-          </div> 
-
-          <div class="columns is-vcentered is-">
-            <div class="column is-two-fifth">
-              <img src="./assets/max_planck-WNYGyvYa.gif"/>
-            </div>
-            <div class="column is-three-fifth">
-              <img src="./assets/bimba-B1bDB16P.gif"/>
-            </div>
-          </div>
-          <div class="columns is-vcentered">
-            <div class="column">
-              <img src="./assets/beetle-PpnP1lMX.gif"/>
-            </div>
-            <div class="column">
-              <img src="./assets/lounge-n7ueTtno.gif"/>
-            </div>
-          </div>
-      </div>
-    </div>
   </div>
 </section>
-
-
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>
-      @misc{fainstein2024dudf,
-        title={DUDF: Differentiable Unsigned Distance Fields with Hyperbolic Scaling}, 
-        author={Miguel Fainstein and Viviana Siless and Emmanuel Iarussi},
-        year={2024},
-        eprint={2402.08876},
-        archivePrefix={arXiv},
-        primaryClass={cs.CV}
-      }
-    </code></pre>
-  </div>
-</section>
-
 
 <footer class="footer">
   <div class="container">
@@ -258,14 +161,7 @@
     </div>
     <div class="columns is-centered">
       <div class="column is-8">
-        <div class="content">
-          <p>
-            Source code mainly borrowed from <a href="https://keunhong.com/">Keunhong Park</a>'s <a href="https://nerfies.github.io/">Nerfies website</a>.
-          </p>
-          <p>
-            Please contact <a href="https://github.com/miguef98">Miguel Fainstein</a> for feedback and questions.
-          </p>
-        </div>
+        
       </div>
     </div>
   </div>
