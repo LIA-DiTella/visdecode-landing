@@ -54,7 +54,7 @@ export default function Hero({ heroVariant }: any) {
                     Try now
                 </Link>
                 <a
-                    href="https://github.com/"
+                    href="https://github.com/LIA-DiTella/VisDecode_demo"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 rounded-xl sm:rounded-full border border-gray-300 bg-white px-6 sm:px-8 2xl:px-12 3xl:px-16 4xl:px-20 py-3 sm:py-4 2xl:py-6 3xl:py-8 4xl:py-10 text-base sm:text-lg 2xl:text-xl 3xl:text-2xl 4xl:text-3xl font-medium shadow-sm transition w-full hover:bg-gray-100 cursor-pointer active:scale-95"

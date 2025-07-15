@@ -1,8 +1,8 @@
 export default function Team() {
     // Example data for 8 team members, now with roles
     const teamMembers = [
-        { name: "Emmanuel Iarussi", role: "CO-PI", image: "./Emmanuel.jpg" },
-        { name: "Viviana Siless", role: "CO-PI", image: "./Viviana.png" },
+        { name: "Emmanuel Iarussi", role: "PI", image: "./Emmanuel.jpg" },
+        { name: "Viviana Siless", role: "Co-PI", image: "./Viviana.png" },
         { name: "Julian Eisenschlos", role: "Advisor", image: "./Julian.jpg" },
         { name: "Leonardo Svarc", role: "Designer", image: "./LeonardoS.jpg" },
         { name: "Paula Feldman", role: "ML Research assistant", image: "./Paula.png" },

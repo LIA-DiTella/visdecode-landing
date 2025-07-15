@@ -12,7 +12,7 @@ export default function Features() {
           >
             <span className="flex items-center w-full">
               <span className="flex-1 h-px bg-black mr-4 w-xs" />
-              What We Offer
+              What we offer
               <span className="flex-1 h-px bg-black ml-4" />
             </span>
           </motion.h2>

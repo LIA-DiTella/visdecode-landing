@@ -23,9 +23,9 @@ export default function Howitworks({ heroVariant } : any) {
                 {/* Step 1 */}
                 <div className="flex flex-col items-center text-center flex-1 min-w-0">
                     <motion.img
-                        src="./upload.png"
+                        src="./step1.png"
                         alt="Logo"
-                        className="w-16 sm:w-20 lg:w-24 2xl:w-40 3xl:w-52 4xl:w-64 mb-4 sm:mb-6 2xl:mb-8 3xl:mb-10 4xl:mb-12"
+                        className="w-16 sm:w-20 lg:w-24 2xl:w-40 3xl:w-52 4xl:w-64"
                         variants={heroVariant}
                         initial="hidden"
                         animate="visible"
@@ -48,9 +48,9 @@ export default function Howitworks({ heroVariant } : any) {
                 {/* Step 2 */}
                 <div className="flex flex-col items-center text-center flex-1 min-w-0">
                     <motion.img
-                        src="./derendering.png"
+                        src="./step2.png"
                         alt="Logo"
-                        className="w-16 sm:w-20 lg:w-24 2xl:w-40 3xl:w-52 4xl:w-64 mb-4 sm:mb-6 2xl:mb-8 3xl:mb-10 4xl:mb-12"
+                        className="w-16 sm:w-20 lg:w-24 2xl:w-40 3xl:w-52 4xl:w-64"
                         variants={heroVariant}
                         initial="hidden"
                         animate="visible"
@@ -73,9 +73,9 @@ export default function Howitworks({ heroVariant } : any) {
                 {/* Step 3 */}
                 <div className="flex flex-col items-center text-center flex-1 min-w-0">
                     <motion.img
-                        src="./recommendations.png"
+                        src="./step3.png"
                         alt="Logo"
-                        className="w-16 sm:w-20 lg:w-24 2xl:w-40 3xl:w-52 4xl:w-64 mb-4 sm:mb-6 2xl:mb-8 3xl:mb-10 4xl:mb-12"
+                        className="w-16 sm:w-20 lg:w-24 2xl:w-40 3xl:w-52 4xl:w-64"
                         variants={heroVariant}
                         initial="hidden"
                         animate="visible"

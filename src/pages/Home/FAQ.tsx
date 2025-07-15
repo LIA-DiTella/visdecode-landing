@@ -21,7 +21,7 @@ export default function FAQ() {
             >
                 <span className="flex items-center w-full">
                     <span className="flex-1 h-px bg-black mr-4 w-md" />
-                    Frequently Asked Questions
+                    Frequently asked questions
                     <span className="flex-1 h-px bg-black ml-4" />
                 </span>
             </h2>
