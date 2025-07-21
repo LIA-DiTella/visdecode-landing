@@ -17,7 +17,7 @@ export default function FAQ() {
     return (
         <div className="w-full max-w-3xl 2xl:max-w-4xl 3xl:max-w-5xl 4xl:max-w-6xl mx-auto mb-12 2xl:mb-16 3xl:mb-20 4xl:mb-24">
             <h2
-                className="text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl 3xl:text-6xl 4xl:text-7xl text-black font-serif font-medium text-center mb-6 sm:mb-8 2xl:mb-12 3xl:mb-16 4xl:mb-20 px-4 "
+                className="text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl 3xl:text-6xl 4xl:text-7xl text-black font-serif font-medium text-center mb-6 sm:mb-8 2xl:mb-12 3xl:mb-16 4xl:mb-20 px-6 sm:px-8 lg:px-12 2xl:px-16 "
             >
                 <span className="flex items-center w-full">
                     <span className="flex-1 h-px bg-black mr-4 w-md" />
@@ -25,7 +25,7 @@ export default function FAQ() {
                     <span className="flex-1 h-px bg-black ml-4" />
                 </span>
             </h2>
-            <div className="w-full flex flex-col gap-3 sm:gap-5 2xl:gap-6 3xl:gap-8 4xl:gap-10 text-black px-4 2xl:px-8 3xl:px-12 4xl:px-16">
+            <div className="w-full flex flex-col gap-3 sm:gap-5 2xl:gap-6 3xl:gap-8 4xl:gap-10 text-black px-6 sm:px-8 lg:px-12 2xl:px-16 3xl:px-20 4xl:px-24">
                 {faqs.map((faq, idx) => (
                     <div
                         key={idx}

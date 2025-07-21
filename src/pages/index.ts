@@ -1,5 +1,5 @@
 import { Home } from "./Home";
-import App from "./App/Index";
+import App from "./App/index";
 
 export {
     Home,

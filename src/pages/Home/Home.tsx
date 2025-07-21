@@ -31,7 +31,7 @@ function Home() {
   })
 
   return (
-    <div className="relative min-h-screen w-screen overflow-x-hidden bg-gradient-to-b from-white via-white to-gray-50 pt-8 sm:pt-12 lg:pt-16 2xl:pt-20 3xl:pt-24">
+    <div className="relative min-h-screen w-screen overflow-x-hidden bg-gradient-to-b from-white via-white to-gray-50 pt-6 sm:pt-8 lg:pt-12 2xl:pt-16 3xl:pt-20">
       {/* <div className="absolute inset-0 pointer-events-none left-1/2 transform -translate-x-1/2 h-screen w-screen" ref={backgroundWaveRef}>
         <div className="relative w-full h-full">
           <img src="./background-wave.svg" alt="" className="w-full h-full object-cover" />
@@ -47,7 +47,7 @@ function Home() {
         <div className="absolute inset-0 bg-gradient-radial from-transparent via-white to-white opacity-90"></div>
       </motion.div>
       {/* </div> */}
-      <div className="relative max-w-3xl 2xl:max-w-6xl 3xl:max-w-7xl 4xl:max-w-8xl mx-auto pt-6 sm:pt-8 lg:pt-12 2xl:pt-16 3xl:pt-20 px-4 sm:px-6 lg:px-8 2xl:px-12 3xl:px-16 4xl:px-20 flex flex-col items-center z-10">
+      <div className="relative max-w-4xl 2xl:max-w-7xl 3xl:max-w-8xl 4xl:max-w-9xl mx-auto pt-4 sm:pt-6 lg:pt-8 2xl:pt-12 3xl:pt-16 px-12 sm:px-16 lg:px-20 2xl:px-28 3xl:px-32 4xl:px-36 flex flex-col items-center z-10">
         <Hero heroVariant={heroVariant} />
         <Howitworks heroVariant={heroVariant} />
         <Features />
@@ -55,7 +55,7 @@ function Home() {
         <Team />
         <FAQ />
       </div>
-      <div className="w-full h-6 sm:h-8 lg:h-10 2xl:h-12 3xl:h-16 bg-[#FDBA49]" />
+      <div className="w-full h-4 sm:h-6 lg:h-8 2xl:h-10 3xl:h-12 bg-[#FDBA49]" />
     </div>
   );
 }

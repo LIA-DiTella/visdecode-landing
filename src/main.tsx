@@ -8,8 +8,8 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/visdecode-landing" element={<Home />} />
-        <Route path="/visdecode-landing/app" element={<App />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/app" element={<App />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

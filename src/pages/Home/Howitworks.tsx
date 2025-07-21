@@ -4,9 +4,9 @@ import { motion } from "motion/react"
 
 export default function Howitworks({ heroVariant } : any) {
     return (
-        <div className="relative flex flex-col items-center gap-2 sm:gap-4 w-full mb-12 2xl:mb-16 3xl:mb-20 4xl:mb-24">
+        <div className="relative flex flex-col items-center gap-2 sm:gap-4 w-full mb-8 2xl:mb-12 3xl:mb-16 4xl:mb-20">
             <motion.h2
-                className="relative flex items-center justify-center text-2xl sm:text-3xl lg:text-4xl 2xl:text-6xl 3xl:text-7xl 4xl:text-8xl text-black font-serif font-medium text-center mb-6 sm:mb-8 2xl:mb-12 3xl:mb-16 4xl:mb-20 px-4 how-it-works-title"
+                className="relative flex items-center justify-center text-xl sm:text-2xl lg:text-3xl 2xl:text-5xl 3xl:text-6xl 4xl:text-7xl text-black font-serif font-medium text-center mb-4 sm:mb-6 2xl:mb-8 3xl:mb-12 4xl:mb-16 px-6 sm:px-8 lg:px-12 2xl:px-16 how-it-works-title"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.7 }}
@@ -14,18 +14,18 @@ export default function Howitworks({ heroVariant } : any) {
             >
                 <span className="flex items-center w-full">
                     <span className="flex-1 h-px bg-black mr-4 w-xs" />
-                    How it works
+                    What we bring
                     <span className="flex-1 h-px bg-black ml-4" />
                 </span>
             </motion.h2>
 
-            <div className="w-full flex flex-row items-center justify-center text-sm gap-0 sm:gap-2 lg:gap-4 2xl:gap-8 3xl:gap-12 4xl:gap-16 px-2 sm:px-4 lg:px-8 2xl:px-12 3xl:px-16 4xl:px-20 text-black">
+            <div className="w-full flex flex-row items-center justify-center text-sm gap-2 sm:gap-4 lg:gap-6 2xl:gap-8 3xl:gap-10 4xl:gap-12 px-4 sm:px-6 lg:px-8 2xl:px-12 3xl:px-16 4xl:px-20 text-black">
                 {/* Step 1 */}
-                <div className="flex flex-col items-center text-center flex-1 min-w-0">
+                <div className="flex flex-col items-center text-center flex-1 max-w-[160px] sm:max-w-[200px] lg:max-w-[240px] 2xl:max-w-[320px] 3xl:max-w-[400px] 4xl:max-w-[480px]">
                     <motion.img
                         src="./step1.png"
                         alt="Logo"
-                        className="w-16 sm:w-20 lg:w-24 2xl:w-40 3xl:w-52 4xl:w-64"
+                        className="w-12 sm:w-16 lg:w-20 2xl:w-32 3xl:w-40 4xl:w-48 mb-2 sm:mb-3 lg:mb-4 2xl:mb-5 3xl:mb-6 4xl:mb-8"
                         variants={heroVariant}
                         initial="hidden"
                         animate="visible"
@@ -36,21 +36,21 @@ export default function Howitworks({ heroVariant } : any) {
                         initial="hidden"
                         animate="visible"
                         transition={{ delay: 0.15, duration: 0.7, ease: 'easeOut' }}
-                        className="font-medium text-sm sm:text-base lg:text-lg 2xl:text-2xl 3xl:text-3xl 4xl:text-4xl"
+                        className="font-medium text-xs sm:text-sm lg:text-base 2xl:text-xl 3xl:text-2xl 4xl:text-3xl leading-snug"
                     >
                         Upload Your Chart
                     </motion.p>
                 </div>
                 {/* Arrow 1 */}
-                <span className="flex-shrink-0 mx-1 sm:mx-2 lg:mx-4 2xl:mx-6 3xl:mx-8 4xl:mx-10 text-black">
-                    <ArrowRight size={32} className="w-6 h-6 sm:w-8 sm:h-8 2xl:w-12 2xl:h-12 3xl:w-16 3xl:h-16 4xl:w-20 4xl:h-20" />
+                <span className="flex-shrink-0 mx-1 sm:mx-2 lg:mx-3 2xl:mx-4 3xl:mx-6 4xl:mx-8 text-black">
+                    <ArrowRight size={32} className="w-4 h-4 sm:w-6 sm:h-6 2xl:w-10 2xl:h-10 3xl:w-12 3xl:h-12 4xl:w-16 4xl:h-16" />
                 </span>
                 {/* Step 2 */}
-                <div className="flex flex-col items-center text-center flex-1 min-w-0">
+                <div className="flex flex-col items-center text-center flex-1 max-w-[160px] sm:max-w-[200px] lg:max-w-[240px] 2xl:max-w-[320px] 3xl:max-w-[400px] 4xl:max-w-[480px]">
                     <motion.img
                         src="./step2.png"
                         alt="Logo"
-                        className="w-16 sm:w-20 lg:w-24 2xl:w-40 3xl:w-52 4xl:w-64"
+                        className="w-12 sm:w-16 lg:w-20 2xl:w-32 3xl:w-40 4xl:w-48 mb-2 sm:mb-3 lg:mb-4 2xl:mb-5 3xl:mb-6 4xl:mb-8"
                         variants={heroVariant}
                         initial="hidden"
                         animate="visible"
@@ -61,21 +61,21 @@ export default function Howitworks({ heroVariant } : any) {
                         initial="hidden"
                         animate="visible"
                         transition={{ delay: 0.15, duration: 0.7, ease: 'easeOut' }}
-                        className="font-medium text-sm sm:text-base lg:text-lg 2xl:text-2xl 3xl:text-3xl 4xl:text-4xl"
+                        className="font-medium text-xs sm:text-sm lg:text-base 2xl:text-xl 3xl:text-2xl 4xl:text-3xl leading-snug"
                     >
                         AI Powered De-rendering
                     </motion.p>
                 </div>
                 {/* Arrow 2 */}
-                <span className="flex-shrink-0 mx-1 sm:mx-2 lg:mx-4 2xl:mx-6 3xl:mx-8 4xl:mx-10 text-black">
-                    <ArrowRight size={32} className="w-6 h-6 sm:w-8 sm:h-8 2xl:w-12 2xl:h-12 3xl:w-16 3xl:h-16 4xl:w-20 4xl:h-20" />
+                <span className="flex-shrink-0 mx-1 sm:mx-2 lg:mx-3 2xl:mx-4 3xl:mx-6 4xl:mx-8 text-black">
+                    <ArrowRight size={32} className="w-4 h-4 sm:w-6 sm:h-6 2xl:w-10 2xl:h-10 3xl:w-12 3xl:h-12 4xl:w-16 4xl:h-16" />
                 </span>
                 {/* Step 3 */}
-                <div className="flex flex-col items-center text-center flex-1 min-w-0">
+                <div className="flex flex-col items-center text-center flex-1 max-w-[160px] sm:max-w-[200px] lg:max-w-[240px] 2xl:max-w-[320px] 3xl:max-w-[400px] 4xl:max-w-[480px]">
                     <motion.img
                         src="./step3.png"
                         alt="Logo"
-                        className="w-16 sm:w-20 lg:w-24 2xl:w-40 3xl:w-52 4xl:w-64"
+                        className="w-12 sm:w-16 lg:w-20 2xl:w-32 3xl:w-40 4xl:w-48 mb-2 sm:mb-3 lg:mb-4 2xl:mb-5 3xl:mb-6 4xl:mb-8"
                         variants={heroVariant}
                         initial="hidden"
                         animate="visible"
@@ -86,7 +86,7 @@ export default function Howitworks({ heroVariant } : any) {
                         initial="hidden"
                         animate="visible"
                         transition={{ delay: 0.15, duration: 0.7, ease: 'easeOut' }}
-                        className="font-medium text-sm sm:text-base lg:text-lg 2xl:text-2xl 3xl:text-3xl 4xl:text-4xl"
+                        className="font-medium text-xs sm:text-sm lg:text-base 2xl:text-xl 3xl:text-2xl 4xl:text-3xl leading-snug"
                     >
                         Recommendations & Re-rendering
                     </motion.p>

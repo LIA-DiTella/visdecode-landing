@@ -13,14 +13,14 @@ export default function Team() {
 
     return (
         <div className="relative flex flex-col items-center gap-2 sm:gap-4 w-full mb-16 2xl:mb-20 3xl:mb-24 4xl:mb-28">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl 2xl:text-6xl 3xl:text-7xl 4xl:text-8xl text-black font-serif font-medium text-center mb-6 sm:mb-8 2xl:mb-12 3xl:mb-16 4xl:mb-20 px-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl 2xl:text-6xl 3xl:text-7xl 4xl:text-8xl text-black font-serif font-medium text-center mb-6 sm:mb-8 2xl:mb-12 3xl:mb-16 4xl:mb-20 px-6 sm:px-8 lg:px-12 2xl:px-16">
                 <span className="flex items-center">
                     <span className="flex-1 h-px bg-black mr-2 w-xs" />
                     Team
                     <span className="flex-1 h-px bg-black ml-2" />
                 </span>
             </h2>
-            <div className="w-full flex flex-row flex-wrap items-center justify-center gap-6 2xl:gap-8 3xl:gap-10 4xl:gap-12 px-4 mb-10 2xl:mb-12 3xl:mb-16 4xl:mb-20">
+            <div className="w-full flex flex-row flex-wrap items-center justify-center gap-6 2xl:gap-8 3xl:gap-10 4xl:gap-12 px-6 sm:px-8 lg:px-12 2xl:px-16 mb-10 2xl:mb-12 3xl:mb-16 4xl:mb-20">
                 {teamMembers.map((member, idx) => (
                     <div key={idx} className="flex flex-col items-center">
                         <img
