@@ -1,8 +1,8 @@
 export default function Team() {
-    // Example data for 8 team members, now with roles
+    // Example data for 8 team members, now with optional links
     const teamMembers = [
-        { name: "Emmanuel Iarussi", role: "PI", image: "./Emmanuel.jpg" },
-        { name: "Viviana Siless", role: "Co-PI", image: "./Viviana.png" },
+        { name: "Emmanuel Iarussi", role: "PI", image: "./Emmanuel.jpg", link: "https://emmanueliarussi.github.io/" },
+        { name: "Viviana Siless", role: "Co-PI", image: "./Viviana.png", link: "https://www.utdt.edu/ver_contenido.php?id_contenido=22640&id_item_menu=37529" },
         { name: "Julian Eisenschlos", role: "Advisor", image: "./Julian.jpg" },
         { name: "Leonardo Svarc", role: "Designer", image: "./LeonardoS.jpg" },
         { name: "Paula Feldman", role: "ML Research assistant", image: "./Paula.png" },
@@ -28,9 +28,20 @@ export default function Team() {
                             alt={member.name}
                             className="h-16 w-16 sm:h-20 sm:w-20 2xl:h-24 2xl:w-24 3xl:h-28 3xl:w-28 4xl:h-32 4xl:w-32 rounded-full object-cover border-2 border-gray-200 mb-1"
                         />
-                        <span className="text-sm sm:text-base 2xl:text-lg 3xl:text-xl 4xl:text-2xl font-medium text-black text-center">
-                            {member.name}
-                        </span>
+                        {member.link ? (
+                            <a
+                                href={member.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-sm sm:text-base 2xl:text-lg 3xl:text-xl 4xl:text-2xl font-medium text-black text-center hover:underline"
+                            >
+                                {member.name}
+                            </a>
+                        ) : (
+                            <span className="text-sm sm:text-base 2xl:text-lg 3xl:text-xl 4xl:text-2xl font-medium text-black text-center">
+                                {member.name}
+                            </span>
+                        )}
                         <span className="text-xs sm:text-sm 2xl:text-base 3xl:text-lg 4xl:text-xl text-gray-500 text-center mt-0.5">
                             {member.role}
                         </span>

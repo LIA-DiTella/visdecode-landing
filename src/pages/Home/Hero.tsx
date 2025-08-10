@@ -27,7 +27,7 @@ export default function Hero({ heroVariant }: any) {
                 animate="visible"
                 transition={{ delay: 0.3, duration: 0.7, ease: 'easeOut' }}
             >
-                Make Every Chart Speak Clearly
+                Make every chart speak clearly
             </motion.h2>
 
             {/* Project description */}
@@ -38,7 +38,7 @@ export default function Hero({ heroVariant }: any) {
                 animate="visible"
                 transition={{ delay: 0.45, duration: 0.7, ease: 'easeOut' }}
             >
-                VisDecode is an open-source AI that reads scientific plots and instantly suggests clearer, more impactful ways to visualize your data, drawing on cutting-edge vision-language models and a curated library of visualization best practices.
+                VisDecode is an open-source AI tool that reads scientific plots and suggests clearer ways to visualize your data, drawing on cutting-edge vision-language models and a curated guide of visualization best practices
             </motion.p>
             <motion.div
                 className="flex flex-col sm:flex-row gap-3 2xl:gap-4 3xl:gap-6 mb-6 sm:mb-8 2xl:mb-12 3xl:mb-16 4xl:mb-20 justify-center px-6 sm:px-8 lg:px-12 2xl:px-16 w-2/3 sm:w-full lg:w-5/6 2xl:w-4/5 3xl:w-3/4 text-black"
