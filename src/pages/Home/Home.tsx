@@ -48,7 +48,6 @@ function Home() {
         <Team />
         <FAQ />
       </div>
-      <div className="w-full h-4 sm:h-6 lg:h-8 2xl:h-10 3xl:h-12 bg-[#FDBA49]" />
     </div>
   );
 }
