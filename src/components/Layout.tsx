@@ -1,9 +1,9 @@
 import { Outlet, useLocation } from "react-router-dom";
 
 const hyperlinks = [
-    { name: "Home", link: "/" },
+    { name: "Home", link: "#" },
     { name: "Report", link: "/report" },
-    { name: "App", link: "/app" },
+    { name: "App", link: "https://app.visdecode.ai" },
 ];
 
 const footerLinks = [
@@ -64,7 +64,7 @@ const Layout = () => {
                                 {link.name}
                             </a>
                         ))}
-                        {footerLinks.map(link => (
+                        {/*                         {footerLinks.map(link => (
                             <a
                                 key={link.name}
                                 href={link.link}
@@ -72,7 +72,7 @@ const Layout = () => {
                             >
                                 {link.name}
                             </a>
-                        ))}
+                        ))} */}
                     </div>
                 </div>
             </footer>
