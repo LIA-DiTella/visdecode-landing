@@ -6,11 +6,11 @@ const hyperlinks = [
     { name: "App", link: "https://app.visdecode.ai" },
 ];
 
-const footerLinks = [
+/* const footerLinks = [
     { name: "Privacy Policy", link: "/privacy" },
     { name: "Terms of Service", link: "/terms" },
     { name: "Contact", link: "/contact" },
-];
+]; */
 
 const Layout = () => {
     const location = useLocation();
