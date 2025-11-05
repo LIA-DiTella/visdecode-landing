@@ -17,12 +17,12 @@ export default function FAQ() {
     return (
         <div className="w-full max-w-3xl 2xl:max-w-4xl 3xl:max-w-5xl 4xl:max-w-6xl mx-auto mb-12 2xl:mb-16 3xl:mb-20 4xl:mb-24">
             <h2
-                className="text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl 3xl:text-6xl 4xl:text-7xl text-black font-serif font-medium text-center mb-6 sm:mb-8 2xl:mb-12 3xl:mb-16 4xl:mb-20 px-6 sm:px-8 lg:px-12 2xl:px-16 "
+                className="text-xl sm:text-2xl lg:text-3xl 2xl:text-5xl 3xl:text-6xl 4xl:text-7xl text-black font-serif font-medium text-center mb-6 sm:mb-8 2xl:mb-12 3xl:mb-16 4xl:mb-20 px-6 sm:px-8 lg:px-12 2xl:px-16 "
             >
-                <span className="flex items-center w-full">
-                    <span className="flex-1 h-px bg-black mr-4 w-md" />
+                <span className="flex items-center w-full justify-center">
+                    <span className="w-16 sm:w-24 md:w-32 lg:w-40 xl:w-48 2xl:w-56 h-px bg-black mr-3 sm:mr-4" />
                     Frequently asked questions
-                    <span className="flex-1 h-px bg-black ml-4" />
+                    <span className="w-16 sm:w-24 md:w-32 lg:w-40 xl:w-48 2xl:w-56 h-px bg-black ml-3 sm:ml-4" />
                 </span>
             </h2>
             <div className="w-full flex flex-col gap-3 sm:gap-5 2xl:gap-6 3xl:gap-8 4xl:gap-10 text-black px-6 sm:px-8 lg:px-12 2xl:px-16 3xl:px-20 4xl:px-24">

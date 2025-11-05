@@ -2,7 +2,7 @@
 import { ArrowRight } from "lucide-react"
 import { motion } from "motion/react"
 
-export default function Howitworks({ heroVariant } : any) {
+export default function Howitworks({ heroVariant }: any) {
     return (
         <div className="relative flex flex-col items-center gap-2 sm:gap-4 w-full mb-8 2xl:mb-12 3xl:mb-16 4xl:mb-20">
             <motion.h2
@@ -12,10 +12,10 @@ export default function Howitworks({ heroVariant } : any) {
                 viewport={{ once: true, amount: 0.7 }}
                 transition={{ duration: 0.7, delay: 0.1, ease: 'easeOut' }}
             >
-                <span className="flex items-center w-full">
-                    <span className="flex-1 h-px bg-black mr-4 w-xs" />
+                <span className="flex items-center w-full justify-center text-nowrap">
+                    <span className="w-16 sm:w-24 md:w-32 lg:w-40 xl:w-48 2xl:w-56 h-px bg-black mr-3 sm:mr-4" />
                     What we bring
-                    <span className="flex-1 h-px bg-black ml-4" />
+                    <span className="w-16 sm:w-24 md:w-32 lg:w-40 xl:w-48 2xl:w-56 h-px bg-black ml-3 sm:ml-4" />
                 </span>
             </motion.h2>
 

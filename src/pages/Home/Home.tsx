@@ -44,8 +44,8 @@ function Home() {
         <Hero heroVariant={heroVariant} />
         <Howitworks heroVariant={heroVariant} />
         <Features />
-        <Acknowledgement />
         <Team />
+        <Acknowledgement />
         <FAQ />
       </div>
     </div>

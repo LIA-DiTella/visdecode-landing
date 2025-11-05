@@ -10,10 +10,10 @@ export default function Features() {
         viewport={{ once: true, amount: 0.7 }}
         transition={{ duration: 0.7, delay: 0.1, ease: 'easeOut' }}
       >
-        <span className="flex items-center w-full">
-          <span className="flex-1 h-px bg-black mr-4 w-xs" />
+        <span className="flex items-center w-full justify-center text-nowrap">
+          <span className="w-16 sm:w-24 md:w-32 lg:w-40 xl:w-48 2xl:w-56 h-px bg-black mr-3 sm:mr-4" />
           What we offer
-          <span className="flex-1 h-px bg-black ml-4" />
+          <span className="w-16 sm:w-24 md:w-32 lg:w-40 xl:w-48 2xl:w-56 h-px bg-black ml-3 sm:ml-4" />
         </span>
       </motion.h2>
       {/* What We Offer Features Section */}
