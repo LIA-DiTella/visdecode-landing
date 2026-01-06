@@ -3,7 +3,7 @@ import { Outlet, useLocation } from "react-router-dom";
 const hyperlinks = [
     { name: "Home", link: "#" },
     { name: "Report", link: "/report" },
-    { name: "App", link: "https://app.visdecode.ai" },
+    { name: "App", link: "/maintenance" },
 ];
 
 /* const footerLinks = [
