@@ -48,7 +48,7 @@ export default function Hero({ heroVariant }: any) {
                 transition={{ delay: 0.6, duration: 0.7, ease: 'easeOut' }}
             >
                 <Link
-                    to="https://app.visdecode.ai"
+                    to="/maintenance"
                     className="rounded-xl sm:rounded-full bg-[#FDBA49] px-6 sm:px-8 2xl:px-10 3xl:px-14 4xl:px-18 py-2.5 sm:py-3 2xl:py-5 3xl:py-6 4xl:py-8 sm:text-lg 2xl:text-xl 3xl:text-2xl 4xl:text-3xl font-medium shadow-sm transition w-full hover:bg-[#FDBA49]/80 cursor-pointer active:scale-95 text-center"
                 >
                     Try now
