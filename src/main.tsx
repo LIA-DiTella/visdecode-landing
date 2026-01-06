@@ -10,13 +10,19 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
+
+        {/* Fullscreen page */}
+        <Route path="/maintenance" element={<UnderMaintenance />} />
+
+        {/* Normal site */}
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="report" element={<Report />} />
-          <Route path="maintenance" element={<UnderMaintenance />} />
         </Route>
+
       </Routes>
     </BrowserRouter>
   </StrictMode>
 );
+
 
