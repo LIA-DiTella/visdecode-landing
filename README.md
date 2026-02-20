@@ -1,17 +1,21 @@
 <p align="center">
-  <img src="logo.png" alt="VisDecode Logo" width="200" />
+  <img src="logo.png" alt="VisDecode Logo" />
 </p>
 
-# VisDecode
+💡 **AI-Driven Interpretation & Enhancement of Scientific Plots**  
+Helping researchers and data enthusiasts improve chart design and readability using **state-of-the-art visual language models**
 
-> 💡 **AI-Driven Interpretation & Enhancement of Scientific Plots**  
-> Helping researchers and data enthusiasts improve chart design and readability using **state-of-the-art visual language models**. :contentReference[oaicite:0]{index=0}
-
+---
+[![VisDecode](https://img.shields.io/badge/Web%20Page-visdecode.ai-FDBA49.svg)](https://visdecode.ai)
+[![Tool](https://img.shields.io/badge/Github%20-Visdecode%20Tool-2563EB.svg)](https://github.com/LIA-DiTella/visdecode-tool)
+[![Study](https://img.shields.io/badge/Github%20-NeurIPS%20Study-16A34A.svg)](https://github.com/LIA-DiTella/visdecode-study)
+[![System](https://img.shields.io/badge/Github%20-NeurIPS%20System-7C3AED.svg)](https://github.com/LIA-DiTella/visdecode-system)
+[![Study2](https://img.shields.io/badge/Github%20-Extended%20Study-DC2626.svg)](https://github.com/LIA-DiTella/visdecode-study-extended)
 ---
 
 ## 🚀 What is VisDecode?
 
-**VisDecode** is an open-source AI tool designed to automatically interpret scientific plots (like bar charts, scatterplots, and line charts) and provide actionable feedback for improving their design and communication. It leverages **visual language understanding** from image inputs to extract perceptual attributes — such as color, positioning, and visual structure — that influence how data is perceived. :contentReference[oaicite:1]{index=1}
+**VisDecode** is an open-source AI tool designed to automatically interpret scientific plots (like bar charts, scatterplots, and line charts) and provide actionable feedback for improving their design and communication. It leverages **visual language understanding** from image inputs to extract perceptual attributes — such as color, positioning, and visual structure — that influence how data is perceived.
 
 The goal is to **bridge cutting-edge AI with best practices in visualization research** so that users can make more effective and insightful graphics.
 
@@ -20,16 +24,16 @@ The goal is to **bridge cutting-edge AI with best practices in visualization res
 ## 🧠 Key Features
 
 - 📊 **Automated plot interpretation**  
-  Understands visual elements from rasterized chart images (e.g., SVG or PNG). :contentReference[oaicite:2]{index=2}
+  Understands visual elements from rasterized chart images (e.g., SVG or PNG). 
 
 - 🎯 **Design recommendations**  
-  Outputs suggestions grounded in visualization research to improve clarity and impact. :contentReference[oaicite:3]{index=3}
+  Outputs suggestions grounded in visualization research to improve clarity and impact. 
 
 - 🤖 **AI-powered visual language models**  
-  Uses pixel-to-text modeling for deeper semantic interpretation of visual features. :contentReference[oaicite:4]{index=4}
+  Uses pixel-to-text modeling for deeper semantic interpretation of visual features. 
 
 - 🛠️ **Research-oriented and extensible**  
-  Built for integration into scientific workflows and future research on visualization tooling. :contentReference[oaicite:5]{index=5}
+  Built for integration into scientific workflows and future research on visualization tooling.
 
 ---
 
@@ -47,13 +51,13 @@ The goal is to **bridge cutting-edge AI with best practices in visualization res
 4. **Iterate & Improve**  
    Apply suggestions to improve chart clarity and interpretability.
 
-> _Note: Technical details and API access may be available via the official repository or upcoming documentation._ :contentReference[oaicite:6]{index=6}
+> _Note: Technical details and API access may be available via the official repository._ 
 
 ---
 
 ## 📚 Research & Impact
 
-VisDecode has been discussed and developed as part of broader scientific research initiatives aimed at creating AI tools that support enhanced scientific communication and practice. Grants and collaborations have supported its advancement, including funded projects focused on **AI-enabled research tools**. :contentReference[oaicite:7]{index=7}
+VisDecode has been discussed and developed as part of broader scientific research initiatives aimed at creating AI tools that support enhanced scientific communication and practice. Grants and collaborations have supported its advancement, including funded projects focused on **AI-enabled research tools**. 
 
 ---
 
@@ -61,8 +65,6 @@ VisDecode has been discussed and developed as part of broader scientific researc
 
 👉 **Visit the official website:**  
 🔗 https://visdecode.ai/
-
-<!-- You can replace this section with installation & usage steps when documentation or code repos are available. -->
 
 ---
 
