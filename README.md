@@ -7,7 +7,7 @@ Helping researchers and data enthusiasts improve chart design and readability us
 
 ---
 [![VisDecode](https://img.shields.io/badge/Web%20Page-visdecode.ai-FDBA49.svg)](https://visdecode.ai)
-[![Tool](https://img.shields.io/badge/Github%20-Visdecode%20Tool-2563EB.svg)](https://github.com/LIA-DiTella/visdecode-tool)
+[![Tool](https://img.shields.io/badge/Github%20-Visdecode%20Codebase-2563EB.svg)](https://github.com/LIA-DiTella/visdecode-tool)
 [![Study](https://img.shields.io/badge/Github%20-NeurIPS%20Study-16A34A.svg)](https://github.com/LIA-DiTella/visdecode-study)
 [![System](https://img.shields.io/badge/Github%20-NeurIPS%20System-7C3AED.svg)](https://github.com/LIA-DiTella/visdecode-system)
 [![Study2](https://img.shields.io/badge/Github%20-Extended%20Study-DC2626.svg)](https://github.com/LIA-DiTella/visdecode-study-extended)
