@@ -7,10 +7,11 @@ Helping researchers and data enthusiasts improve chart design and readability us
 
 ---
 [![VisDecode](https://img.shields.io/badge/Web%20Page-visdecode.ai-FDBA49.svg)](https://visdecode.ai)
-[![Tool](https://img.shields.io/badge/Github%20-Visdecode%20Codebase-2563EB.svg)](https://github.com/LIA-DiTella/visdecode-tool)
-[![Study](https://img.shields.io/badge/Github%20-NeurIPS%20Study-16A34A.svg)](https://github.com/LIA-DiTella/visdecode-study)
-[![System](https://img.shields.io/badge/Github%20-NeurIPS%20System-7C3AED.svg)](https://github.com/LIA-DiTella/visdecode-system)
-[![Study2](https://img.shields.io/badge/Github%20-Extended%20Study-DC2626.svg)](https://github.com/LIA-DiTella/visdecode-study-extended)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?logo=discord&logoColor=white)](https://discord.gg/DCRPRZVcBT)
+[![Tool](https://img.shields.io/badge/Github%20-VisDecode%20Codebase-2563EB?logo=github&logoColor=white)](https://github.com/LIA-DiTella/visdecode-tool)
+[![Study](https://img.shields.io/badge/Github%20-NeurIPS%20Study-16A34A?logo=github&logoColor=white)](https://github.com/LIA-DiTella/visdecode-study)
+[![System](https://img.shields.io/badge/Github%20-NeurIPS%20System-7C3AED?logo=github&logoColor=white)](https://github.com/LIA-DiTella/visdecode-system)
+[![Study2](https://img.shields.io/badge/GitHub-Extended%20Study-DC2626?logo=github&logoColor=white)](https://github.com/LIA-DiTella/visdecode-study-extended)
 ---
 
 ## 🚀 What is VisDecode?
