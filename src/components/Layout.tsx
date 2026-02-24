@@ -4,6 +4,7 @@ const hyperlinks = [
     { name: "Home", link: "#" },
     { name: "Report", link: "/report" },
     { name: "App", link: "/maintenance" },
+    { name: "Discord", link: "https://discord.gg/CQdWrRyj"},
 ];
 
 /* const footerLinks = [
